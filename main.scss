@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(20,132,166);
+}
+nav {
+    width: 100vw;
+    height: 70px;
+    background: rgb(11, 84, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    a {
+        color: white ;
+        font-size: 26px;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 70px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #1484a6; }
+
+nav {
+  width: 100vw;
+  height: 70px;
+  background: #0b547b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; }
+  nav a {
+    color: white;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 70px;
+    cursor: pointer; }
