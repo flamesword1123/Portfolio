@@ -19,4 +19,75 @@ nav {
     font-size: 26px;
     font-family: 'Open Sans', sans-serif;
     margin: 0 70px;
+    display: block;
     cursor: pointer; }
+
+.about {
+  height: calc(100vh - 70px);
+  padding-top: 70px;
+  background: #0284A8;
+  display: flex;
+  align-items: center; }
+  .about .about-content {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .about .about-content img {
+      width: 300px;
+      height: 300px;
+      padding: 20px; }
+    .about .about-content p {
+      width: 700px;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+
+.experience {
+  height: calc(100vh - 70px);
+  padding-top: 70px;
+  background: #02BEC4;
+  display: flex;
+  align-items: center; }
+  .experience .experience-content {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .experience .experience-content p {
+      width: 700px;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+    .experience .experience-content img {
+      width: 300px;
+      height: 300px;
+      padding: 20px; }
+
+.contact {
+  height: calc(100vh - 70px);
+  padding-top: 70px;
+  background-color: #A9E8DC;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .contact .contact-content {
+    width: 300px;
+    height: 300px;
+    background-color: #E1F7E7;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; }
+    .contact .contact-content .contact-text {
+      color: black;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+    .contact .contact-content .email {
+      color: black;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
