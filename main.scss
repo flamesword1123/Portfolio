@@ -8,6 +8,7 @@
 body {
     background-color: rgb(20,132,166);
 }
+
 nav {
     width: 100vw;
     height: 70px;
@@ -16,19 +17,26 @@ nav {
     justify-content: center;
     align-items: center;
     position: fixed;
+    box-shadow: 0 10px 25px rgb(11,84,123); 
+    
     
 
     a {
         color: white ;
         font-size: 26px;
         font-family: 'Open Sans', sans-serif;
+        text-align: center;
         margin: 0 70px;
         display: block;
         cursor: pointer;
         
     }
+    a:hover {
+        background-color: blue;
+    }
 }
-.about {
+
+#about {
     height: calc(100vh - 70px);
     padding-top: 70px;
     background: #0284A8;
@@ -55,16 +63,19 @@ nav {
             color: white;
             font-size: 20px;
             font-family: 'Open Sans', sans-serif;
+            border: 10px rgb(20,132,266);
+            border-style: solid;
+            border-radius: 10px;
             
             
             
         }
     } 
 }
-.experience {
+#experience {
     height: calc(100vh - 70px);
     padding-top: 70px;
-    background: #02BEC4;
+    background: rgb(2, 190, 196);
     display: flex;
     align-items: center;
 
@@ -80,8 +91,9 @@ nav {
             color: white;
             font-size: 20px;
             font-family: 'Open Sans', sans-serif;
-            
-            
+            border: 10px rgb(2,190,296);
+            border-style: solid;
+            border-radius: 10px;
             
         }
 
@@ -94,7 +106,7 @@ nav {
     }
 }
 
-.contact {
+#contact {
     height: calc(100vh - 70px);
     padding-top: 70px;
     background-color: #A9E8DC;
