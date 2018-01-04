@@ -1,50 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+$navbar-height: 70px;
 
 * {
     padding: 0;
     margin: 0;
 }
 body {
-    background-color: rgb(20,132,166);
+    background-color: rgb(11,84,123);
 }
 
 nav {
     width: 100vw;
-    height: 70px;
+    height: $navbar-height;
+    margin-bottom: $navbar-height;
     background: rgb(11, 84, 123);
+    position: fixed;
+    box-shadow: 0 10px 25px rgb(11,84,123); 
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    box-shadow: 0 10px 25px rgb(11,84,123); 
     
-    
-
     a {
+        height: $navbar-height;
+        width: 140px;
+        padding: 0 50px;
+        line-height: $navbar-height;
         color: white ;
         font-size: 26px;
         font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
         text-align: center;
-        margin: 0 70px;
-        display: block;
         cursor: pointer;
-        
-    }
-    a:hover {
-        background-color: blue;
-    }
-}
-#landing {
-    height: calc(100vh - 70px);
+    }                
 
-    img {
-        margin-top: 70px;
+    a:hover {
+        background-color: rgb(2, 74, 168);
+    } 
+}
+
+
+#landing {
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-image: url('http://via.placeholder.com/1280x584');
+
+    p {
+        text-align: center;
+        color: white ;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
     }
 }
+
+
 #about {
     height: calc(100vh - 70px);
-    padding-top: 70px;
+    padding-top: $navbar-height;
     background: #0284A8;
     display: flex;
     align-items: center;
@@ -78,7 +91,7 @@ nav {
 }
 #experience {
     height: calc(100vh - 70px);
-    padding-top: 70px;
+    padding-top: $navbar-height;
     background: rgb(2, 190, 196);
     display: flex;
     align-items: center;
@@ -110,7 +123,7 @@ nav {
 
 #contact {
     height: calc(100vh - 70px);
-    padding-top: 70px;
+    padding-top: $navbar-height;
     background-color: #A9E8DC;
     display: flex;
     align-items: center;
