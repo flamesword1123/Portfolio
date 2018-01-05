@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
 * {
   padding: 0;
   margin: 0; }
@@ -39,8 +40,8 @@ nav {
   #landing p {
     text-align: center;
     color: white;
-    font-size: 35px;
-    font-family: 'Open Sans', sans-serif; }
+    font-size: 80px;
+    font-family: 'Lobster', cursive; }
 
 #about {
   height: calc(100vh - 70px);
@@ -63,7 +64,8 @@ nav {
       color: white;
       font-size: 20px;
       font-family: 'Open Sans', sans-serif;
-      border-radius: 10px; }
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px #000000; }
 
 #experience {
   height: calc(100vh - 70px);
@@ -82,7 +84,8 @@ nav {
       color: white;
       font-size: 20px;
       font-family: 'Open Sans', sans-serif;
-      border-radius: 10px; }
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px #000000; }
     #experience .experience-content img {
       width: 300px;
       height: 300px;
@@ -97,14 +100,15 @@ nav {
   justify-content: center; }
   #contact .contact-content {
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-color: #E1F7E7;
     border-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000; }
     #contact .contact-content .contact-text {
       color: black;
       font-size: 20px;
