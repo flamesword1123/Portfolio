@@ -55,77 +55,80 @@ nav {
     }
 }
 
-
 #about {
-    height: calc(100vh - 70px);
-    padding-top: $navbar-height;
     background: #0284A8;
-    display: flex;
-    align-items: center;
+    padding: $navbar-height 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 
-    .about-content {
-        width: 100vw;
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about {
         display: flex;
-        justify-content: center;
         align-items: center;
-        
-        
-        img {
-            width: 300px;
-            height: 300px;
-            padding: 20px;
+    
+        .about-content {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
-        }
-        
-        p {
-            width: 700px;
-            padding: 20px;
-            color: white;
-            font-size: 20px;
-            font-family: 'Open Sans', sans-serif;
-            border-radius: 10px;
-            box-shadow: 5px 5px 0 #000000;
+            img {
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+            }
             
-            
-            
-        }
-    } 
+            p {
+                width: 700px;
+                padding: 20px;
+                font-size: 20px; 
+            }
+        } 
+    }
 }
+
 #experience {
-    height: calc(100vh - 70px);
-    padding-top: $navbar-height;
-    background: rgb(2, 190, 196);
-    display: flex;
-    align-items: center;
+    background: #02BEC4;
+    padding: $navbar-height 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 
-    .experience-content {
-        width: 100vw;
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .experience {
         display: flex;
-        justify-content: center;
         align-items: center;
-        
-        p {
-            width: 700px;
-            padding: 20px;
-            color: white;
-            font-size: 20px;
-            font-family: 'Open Sans', sans-serif;
-            border-radius: 10px;
-            box-shadow: 5x 5px 0 #000000;
+    
+        .experience-content {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
-        }
+            p {
+                width: 700px;
+                padding: 20px;
+                font-size: 20px; 
+            }
 
-        img {
-            width: 300px;
-            height: 300px;
-            padding: 20px;
-            
-        }
+            img {
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+            }
+        } 
     }
 }
 
 #contact {
-    height: calc(100vh - 70px);
+    height: 50vh;
     padding-top: $navbar-height;
     background-color: #A9E8DC;
     display: flex;
@@ -142,7 +145,6 @@ nav {
         align-items: center;
         justify-content: center;
         border-radius: 10px;
-        box-shadow: 10px 5px 0 #000000;
 
         .contact-text {
             color: black;

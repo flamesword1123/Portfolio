@@ -44,55 +44,57 @@ nav {
     font-family: 'Lobster', cursive; }
 
 #about {
-  height: calc(100vh - 70px);
-  padding-top: 70px;
   background: #0284A8;
-  display: flex;
-  align-items: center; }
-  #about .about-content {
-    width: 100vw;
+  padding: 70px 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+  #about h2 {
+    font-size: 30px;
+    text-align: center; }
+  #about .about {
     display: flex;
-    justify-content: center;
     align-items: center; }
-    #about .about-content img {
-      width: 300px;
-      height: 300px;
-      padding: 20px; }
-    #about .about-content p {
-      width: 700px;
-      padding: 20px;
-      color: white;
-      font-size: 20px;
-      font-family: 'Open Sans', sans-serif;
-      border-radius: 10px;
-      box-shadow: 5px 5px 0 #000000; }
+    #about .about .about-content {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #about .about .about-content img {
+        width: 300px;
+        height: 300px;
+        padding: 20px; }
+      #about .about .about-content p {
+        width: 700px;
+        padding: 20px;
+        font-size: 20px; }
 
 #experience {
-  height: calc(100vh - 70px);
-  padding-top: 70px;
-  background: #02bec4;
-  display: flex;
-  align-items: center; }
-  #experience .experience-content {
-    width: 100vw;
+  background: #02BEC4;
+  padding: 70px 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+  #experience h2 {
+    font-size: 30px;
+    text-align: center; }
+  #experience .experience {
     display: flex;
-    justify-content: center;
     align-items: center; }
-    #experience .experience-content p {
-      width: 700px;
-      padding: 20px;
-      color: white;
-      font-size: 20px;
-      font-family: 'Open Sans', sans-serif;
-      border-radius: 10px;
-      box-shadow: 5x 5px 0 #000000; }
-    #experience .experience-content img {
-      width: 300px;
-      height: 300px;
-      padding: 20px; }
+    #experience .experience .experience-content {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #experience .experience .experience-content p {
+        width: 700px;
+        padding: 20px;
+        font-size: 20px; }
+      #experience .experience .experience-content img {
+        width: 300px;
+        height: 300px;
+        padding: 20px; }
 
 #contact {
-  height: calc(100vh - 70px);
+  height: 50vh;
   padding-top: 70px;
   background-color: #A9E8DC;
   display: flex;
@@ -107,8 +109,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    box-shadow: 10px 5px 0 #000000; }
+    border-radius: 10px; }
     #contact .contact-content .contact-text {
       color: black;
       font-size: 20px;
