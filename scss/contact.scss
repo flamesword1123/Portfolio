@@ -1,0 +1,32 @@
+#contact {
+    height: 50vh;
+    padding: $navbar-height 0;
+    background-color: #A9E8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .contact-content {
+        width: 300px;
+        height: 200px;
+        background-color: #E1F7E7;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+        .contact-text {
+            color: black;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    
+        .email{
+            color: black;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}

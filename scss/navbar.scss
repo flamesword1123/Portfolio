@@ -1,0 +1,28 @@
+nav {
+    width: 100vw;
+    height: $navbar-height;
+    margin-bottom: $navbar-height;
+    background: rgb(11, 84, 123);
+    position: fixed;
+    box-shadow: 0 10px 25px rgb(11,84,123); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a {
+        height: $navbar-height;
+        width: 140px;
+        padding: 0 50px;
+        line-height: $navbar-height;
+        color: white ;
+        font-size: 26px;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+    }                
+
+    a:hover {
+        background-color: rgb(2, 74, 168);
+    } 
+}

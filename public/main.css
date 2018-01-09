@@ -1,47 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
-* {
-  padding: 0;
-  margin: 0; }
-
 body {
+  padding: 0;
+  margin: 0;
   background-color: #0b547b; }
-
-nav {
-  width: 100vw;
-  height: 70px;
-  margin-bottom: 70px;
-  background: #0b547b;
-  position: fixed;
-  box-shadow: 0 10px 25px #0b547b;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  nav a {
-    height: 70px;
-    width: 140px;
-    padding: 0 50px;
-    line-height: 70px;
-    color: white;
-    font-size: 26px;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer; }
-  nav a:hover {
-    background-color: #024aa8; }
-
-#landing {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("http://via.placeholder.com/1280x584"); }
-  #landing p {
-    text-align: center;
-    color: white;
-    font-size: 80px;
-    font-family: 'Lobster', cursive; }
 
 #about {
   background: #0284A8;
@@ -68,6 +30,32 @@ nav {
         padding: 20px;
         font-size: 20px; }
 
+#contact {
+  height: 50vh;
+  padding: 70px 0;
+  background-color: #A9E8DC;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #contact .contact-content {
+    width: 300px;
+    height: 200px;
+    background-color: #E1F7E7;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; }
+    #contact .contact-content .contact-text {
+      color: black;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+    #contact .contact-content .email {
+      color: black;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif; }
+
 #experience {
   background: #02BEC4;
   padding: 70px 0;
@@ -93,28 +81,38 @@ nav {
         height: 300px;
         padding: 20px; }
 
-#contact {
-  height: 50vh;
-  padding-top: 70px;
-  background-color: #A9E8DC;
+#landing {
+  height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center; }
-  #contact .contact-content {
-    width: 300px;
-    height: 200px;
-    background-color: #E1F7E7;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px; }
-    #contact .contact-content .contact-text {
-      color: black;
-      font-size: 20px;
-      font-family: 'Open Sans', sans-serif; }
-    #contact .contact-content .email {
-      color: black;
-      font-size: 20px;
-      font-family: 'Open Sans', sans-serif; }
+  background-image: url("http://via.placeholder.com/1280x584"); }
+  #landing p {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Lobster', cursive; }
+
+nav {
+  width: 100vw;
+  height: 70px;
+  margin-bottom: 70px;
+  background: #0b547b;
+  position: fixed;
+  box-shadow: 0 10px 25px #0b547b;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  nav a {
+    height: 70px;
+    width: 140px;
+    padding: 0 50px;
+    line-height: 70px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer; }
+  nav a:hover {
+    background-color: #024aa8; }
