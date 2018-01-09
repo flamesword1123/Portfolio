@@ -2,10 +2,10 @@ const express = require('express')
 const app = express();
 const path = require('path');
 
-app.use(express.static(path.resolve('./public')));
+app.use(express.static(path.resolve('./')));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.resolve('./public/index.html'));
+    res.sendFile(path.resolve('./index.html'));
 });
 
 
