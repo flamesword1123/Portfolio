@@ -1,24 +1,22 @@
 nav {
     width: 100vw;
-    height: $navbar-height;
-    margin-bottom: $navbar-height;
     background: rgb(11, 84, 123);
     position: fixed;
     box-shadow: 0 10px 25px rgb(11,84,123); 
     display: flex;
     justify-content: center;
     align-items: center;
+    @media all and (max-width: 600px) {
+        position: relative;
+        flex-direction: column;
+    }
     
     a {
-        height: $navbar-height;
-        width: 140px;
-        padding: 0 50px;
-        line-height: $navbar-height;
+        padding: 15px 30px;
         color: white ;
         font-size: 26px;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
-        text-align: center;
         cursor: pointer;
     }                
 

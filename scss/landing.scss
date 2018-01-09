@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
     background-image: url('http://via.placeholder.com/1280x584');
+    background-position: center;
 
     p {
+        padding: 15px;
         text-align: center;
         color: white ;
         font-size: 80px;

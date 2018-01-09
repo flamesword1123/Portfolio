@@ -1,38 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
-body {
+* {
   padding: 0;
-  margin: 0;
+  margin: 0; }
+
+body {
   background-color: #0b547b; }
 
-#about {
+.about {
+  padding: 66px 0;
   background: #0284A8;
-  padding: 70px 0;
   color: white;
   font-family: 'Open Sans', sans-serif; }
-  #about h2 {
+  .about h2 {
     font-size: 30px;
     text-align: center; }
-  #about .about {
+  .about__content {
     display: flex;
+    justify-content: center;
     align-items: center; }
-    #about .about .about-content {
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      #about .about .about-content img {
-        width: 300px;
-        height: 300px;
-        padding: 20px; }
-      #about .about .about-content p {
-        width: 700px;
-        padding: 20px;
-        font-size: 20px; }
+    @media all and (max-width: 900px) {
+      .about__content {
+        flex-direction: column; } }
+    .about__content img {
+      width: 300px;
+      height: 300px;
+      padding: 20px; }
+    .about__content p {
+      width: 700px;
+      padding: 20px;
+      font-size: 20px; }
+      @media all and (max-width: 900px) {
+        .about__content p {
+          width: auto; } }
 
 #contact {
   height: 50vh;
-  padding: 70px 0;
   background-color: #A9E8DC;
   display: flex;
   align-items: center;
@@ -56,38 +59,43 @@ body {
       font-size: 20px;
       font-family: 'Open Sans', sans-serif; }
 
-#experience {
+.experience {
+  padding: 66px 0;
   background: #02BEC4;
-  padding: 70px 0;
   color: white;
   font-family: 'Open Sans', sans-serif; }
-  #experience h2 {
+  .experience h2 {
     font-size: 30px;
     text-align: center; }
-  #experience .experience {
+  .experience__content {
     display: flex;
+    justify-content: center;
     align-items: center; }
-    #experience .experience .experience-content {
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      #experience .experience .experience-content p {
-        width: 700px;
-        padding: 20px;
-        font-size: 20px; }
-      #experience .experience .experience-content img {
-        width: 300px;
-        height: 300px;
-        padding: 20px; }
+    @media all and (max-width: 900px) {
+      .experience__content {
+        flex-direction: column; } }
+    .experience__content img {
+      width: 300px;
+      height: 300px;
+      padding: 20px; }
+    .experience__content p {
+      width: 700px;
+      padding: 20px;
+      font-size: 20px; }
+      @media all and (max-width: 900px) {
+        .experience__content p {
+          width: auto;
+          order: 1; } }
 
 #landing {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("http://via.placeholder.com/1280x584"); }
+  background-image: url("http://via.placeholder.com/1280x584");
+  background-position: center; }
   #landing p {
+    padding: 15px;
     text-align: center;
     color: white;
     font-size: 80px;
@@ -95,24 +103,22 @@ body {
 
 nav {
   width: 100vw;
-  height: 70px;
-  margin-bottom: 70px;
   background: #0b547b;
   position: fixed;
   box-shadow: 0 10px 25px #0b547b;
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media all and (max-width: 600px) {
+    nav {
+      position: relative;
+      flex-direction: column; } }
   nav a {
-    height: 70px;
-    width: 140px;
-    padding: 0 50px;
-    line-height: 70px;
+    padding: 15px 30px;
     color: white;
     font-size: 26px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    text-align: center;
     cursor: pointer; }
   nav a:hover {
     background-color: #024aa8; }

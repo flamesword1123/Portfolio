@@ -1,6 +1,6 @@
-#about {
+.about {
+    padding: 66px 0;
     background: #0284A8;
-    padding: $navbar-height 0;
     color: white;
     font-family: 'Open Sans', sans-serif;
 
@@ -9,27 +9,30 @@
         text-align: center;
     }
 
-    .about {
+    &__content {
         display: flex;
+        justify-content: center;
         align-items: center;
-    
-        .about-content {
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            img {
-                width: 300px;
-                height: 300px;
-                padding: 20px;
+        
+        @media all and (max-width: 900px) {
+            flex-direction: column;
+        }
+        
+        img {
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+        
+        p {
+            width: 700px;
+            padding: 20px;
+            font-size: 20px; 
+
+            @media all and (max-width: 900px) {
+                width: auto;
             }
-            
-            p {
-                width: 700px;
-                padding: 20px;
-                font-size: 20px; 
-            }
-        } 
-    }
+        }
+    } 
+
 }
